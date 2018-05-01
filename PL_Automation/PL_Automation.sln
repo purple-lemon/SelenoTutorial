@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_Automation", "PL_Automation\PL_Automation.csproj", "{FE686A85-3F03-4790-B51F-37405F28B71D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto.UnitTests", "Auto.UnitTests\Auto.UnitTests.csproj", "{FED88071-35A9-4FF4-BE4A-3DC609DC68A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE686A85-3F03-4790-B51F-37405F28B71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE686A85-3F03-4790-B51F-37405F28B71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE686A85-3F03-4790-B51F-37405F28B71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE686A85-3F03-4790-B51F-37405F28B71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED88071-35A9-4FF4-BE4A-3DC609DC68A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED88071-35A9-4FF4-BE4A-3DC609DC68A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED88071-35A9-4FF4-BE4A-3DC609DC68A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED88071-35A9-4FF4-BE4A-3DC609DC68A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38C227A5-F769-47F0-9B69-95964B5C2730}
+	EndGlobalSection
+EndGlobal
