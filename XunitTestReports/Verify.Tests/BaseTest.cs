@@ -27,6 +27,10 @@ namespace Verify.Tests
 
                 var filePath = @"F:\Screenshots\test.txt";
 
+                using (File.Create(@"F:\Screenshots\test.txt"))
+                {
+
+                }
                 File.WriteAllText(filePath, "Here is my screenshot");
                 output.WriteLine("Screenshot stored: " + filePath);
                 // This would be a good place to log the exception message and
