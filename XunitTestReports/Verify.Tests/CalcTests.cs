@@ -13,10 +13,8 @@ namespace Verify.Tests
     public class CalcTests : BaseTest
     {
 
-        private readonly ITestOutputHelper output;
-        public CalcTests(ITestOutputHelper testOutputHelper)
+        public CalcTests(ITestOutputHelper testOutputHelper) : base(testOutputHelper)
         {
-            output = testOutputHelper;
         }
         [Fact(DisplayName = "Test sum")]
         public void SumTest()
@@ -27,15 +25,8 @@ namespace Verify.Tests
                 var date = DateTime.Now;
                 var secs = date.Second + 60 * date.Minute + 3600 * date.Hour;
                 var calc = new Calculator();
-                try
-                {
-                    Assert.Equal(5, calc.Sum(2, 4));
-                }
-                catch (Exception e)
-                {
-                    output.WriteLine("Link to screenshot: http://test.com/123");
-                    throw;
-                }
+                
+                Assert.Equal(5, calc.Sum(2, 4));
             });
         }
 
