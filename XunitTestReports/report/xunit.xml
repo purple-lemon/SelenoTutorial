@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="07/06/2018 14:25:05">
+  <assembly name="F:\Git\SelenoTutorial\XunitTestReports\Verify.Tests\bin\Debug\Verify.Tests.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.3.1.3858" run-date="2018-07-06" run-time="14:25:05" config-file="F:\Git\SelenoTutorial\XunitTestReports\packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.exe.Config" total="3" passed="2" failed="1" skipped="0" time="0.219" errors="0">
+    <errors />
+    <collection total="3" passed="2" failed="1" skipped="0" name="Calculator tests" time="0.060">
+      <test name="Test sum" type="Verify.Tests.CalcTests" method="SumTest" time="0.0571159" result="Fail">
+        <output><![CDATA[Link to screenshot: http://test.com/123
+]]></output>
+        <failure exception-type="Xunit.Sdk.EqualException">
+          <message><![CDATA[Assert.Equal() Failure\r\nExpected: 5\r\nActual:   6]]></message>
+          <stack-trace><![CDATA[   at Verify.Tests.CalcTests.SumTest() in F:\Git\SelenoTutorial\XunitTestReports\Verify.Tests\CalcTests.cs:line 34]]></stack-trace>
+        </failure>
+      </test>
+      <test name="Test substraction" type="Verify.Tests.CalcTests" method="SubTest" time="0.0025863" result="Pass" />
+      <test name="Test multiplication" type="Verify.Tests.CalcTests" method="MultTest" time="0.0001495" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
