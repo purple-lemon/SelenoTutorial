@@ -25,7 +25,7 @@ namespace Verify.Tests
             {
                 //var screenshot = Driver.TakeScreenshot();
 
-                var filePath = @"D:\Screenshots\test.txt";
+                var filePath = @"F:\Screenshots\test.txt";
 
                 File.WriteAllText(filePath, "Here is my screenshot");
                 output.WriteLine("Screenshot stored: " + filePath);
