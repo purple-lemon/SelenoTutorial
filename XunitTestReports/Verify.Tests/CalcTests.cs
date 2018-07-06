@@ -25,7 +25,14 @@ namespace Verify.Tests
         public void SubTest()
         {
             var calc = new Calculator();
-            Assert.Equal(5, calc.Substract(8, 4));
+            Assert.Equal(5, calc.Substract(8, 3));
+        }
+
+        [Fact(DisplayName = "Test multiplication")]
+        public void MultTest()
+        {
+            var calc = new Calculator();
+            Assert.Equal(6, 2*3);
         }
     }
 }
